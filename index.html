@@ -76,8 +76,8 @@
     
     <h3>🩺 Clínica Médica (Especialidade)</h3>
     <ul>
-        <li>Check-up Completo | Manejo de Doenças Crônicas</li>
-        <li>Controle Metabólico | Risco Cirúrgico | Medicina Preventiva</li>
+        <li>Check-up Completo | Manejo de Doenças Crônicas| Acompanhamento Médico | Tratamentos e Diagnósticos</li>
+        <li>Consultas de rotina | Risco Cirúrgico | Medicina Preventiva</li>
     </ul>
 
     <h3>🫁 Expertise em Pneumologia</h3>
@@ -128,7 +128,7 @@
             <button onclick="showMedTab('tab-solicitacoes')">AGENDAMENTOS</button>
             <button onclick="showMedTab('tab-reg-prontuario')">REGISTRO DE PRONTUÁRIOS</button>
             <button onclick="showMedTab('tab-ver-prontuarios')">VER PRONTUÁRIOS</button>
-            <button onclick="showMedTab('tab-reg-docs')">REGISTRO DE LAUDO/PRESC</button>
+            <button onclick="showMedTab('tab-reg-docs')">REGISTRO DE LAUDOS E PRESCRIÇÕES</button>
         </div>
 
         <div id="tab-solicitacoes" class="med-tab-content">
@@ -222,9 +222,9 @@ HORÁRIO: </textarea>
 
     // FAQ (RESTAURADO)
     const faqs = [
-        { q: "Como as consultas funcionam?", a: "As consultas acontecem via Discord ou Roblox (HBA). Atendimento humanizado e focado no paciente." },
-        { q: "Quem é Dr. Lucas?", a: "Médico formado pela UNICAMP com especialidade em Clínica Médica e Pneumologia." },
-        { q: "O que acontece se eu não comparecer?", a: "A consulta é cancelada, mas você pode remarcar normalmente." }
+        { q: "Como as consultas funcionam?", a: "As consultas acontecem via Discord ou Roblox, Pelo servidor Hospital Brasileiro Amil (HBA). Atendimento humanizado e focado no paciente." },
+        { q: "Quem é Dr. Lucas?", a: "Dr. Lucas, é um médico formado em medicina pela UNICAMP, especializado em clínica médica, com expertise em pneumologia e radiologia/diagnóstico por imagem, conheça mais em: #QUEM SOMOS" },
+        { q: "O que acontece se eu não comparecer?", a: "A consulta é cancelada, portanto você pode remarcar normalmente." }
     ];
 
     document.getElementById('faq-list').innerHTML = faqs.map(f => `
